@@ -11,7 +11,8 @@
  	${requestScope.login }<br>    <!-- 이 방법을 쓸것 -->
  	attr : <%= request.getAttribute("login") %><br>    <!-- 앞으로 이 방법은 쓰지 x -->
  	param : <%= request.getParameter("login") %>         <!-- 앞으로 이 방법은 쓰지 x -->
- 	
-
+<hr>
+<a href="http://localhost:8089/root/index">인덱스</a>
+<a href="http://localhost:8089/root/logout">로그아웃</a>
 </body>
 </html>
